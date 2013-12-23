@@ -1,6 +1,6 @@
 # jQuery Table to CSV plugin
 
-A simple, lightweight jQuery plugin for reading a table and outputting its data as a csv file. This plugin was created to allow more flexability with downloading straight from JavaScript and allows the user to specif a name, fiel extensiona and if table headers should be outputted.
+A simple, lightweight jQuery plugin for reading a table and outputting its data as a csv file. This plugin was created to allow more flexability with downloading straight from JavaScript and allows the user to specify a name, file extension and if table headers should be outputted.
 
 ## Instalation
 
