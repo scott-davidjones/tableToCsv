@@ -1,10 +1,10 @@
-# jQuery Tabel to CSV plugin
+# jQuery Table to CSV plugin
 
-A simple, lightweight jQuery plugin for reading a table and outputting its data as a csv file. 
+A simple, lightweight jQuery plugin for reading a table and outputting its data as a csv file. This plugin was created to allow more flexability with downloading straight from JavaScript and allows the user to specif a name, fiel extensiona and if table headers should be outputted.
 
 ## Instalation
 
-Include script *after* the jQuery library (unless you are packaging scripts somehow else):
+Include script *after* the jQuery library (unless you are packaging scripts some other way):
 
 ```html
 <script src="/path/to/jquery.cookie.js"></script>
@@ -75,3 +75,19 @@ Default options are as follows:
 - fileName: table ID,
 - outputheaders: true,
 - extension: 'csv'
+
+## Compatability
+
+tableToCSV uses the new HTML5 ```download``` attribute for ```<a>``` elements. As such this plugin will only work for browsers that support this functionality. tableToCSV has been tested in latest Chrome, firefox and Opera.
+
+## Issues
+
+Internet Explorer and Safari are know to have issues and I am working on them.
+
+### Bugs
+
+Please use the issue tracker for submitting bugs
+
+## Contributing
+
+If you wish to contribute please fork and submit merge requests.
