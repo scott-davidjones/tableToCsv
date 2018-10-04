@@ -7,7 +7,7 @@ A simple, lightweight jQuery plugin for reading a table and outputting its data 
 Include script *after* the jQuery library (unless you are packaging scripts some other way):
 
 ```html
-<script src="/path/to/jquery.cookie.js"></script>
+<script src="/path/to/jquery.tabletocsv.js"></script>
 ```
 
 ## Usage
@@ -78,11 +78,11 @@ Default options are as follows:
 
 ## Compatability
 
-tableToCSV uses the new HTML5 ```download``` attribute for ```<a>``` elements. As such this plugin will only work for browsers that support this functionality. tableToCSV has been tested in latest Chrome, firefox and Opera.
+tableToCSV uses the new HTML5 ```download``` attribute for ```<a>``` elements. As such this plugin will only work for browsers that support this functionality. tableToCSV has been tested in latest Chrome, firefox, Opera, IE and Edge.
 
 ## Issues
 
-Internet Explorer and Safari are know to have issues and I am working on them.
+Safari is know to have issues.
 
 ### Bugs
 
