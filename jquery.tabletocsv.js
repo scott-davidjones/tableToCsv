@@ -18,7 +18,7 @@
     }, options);
 
     var quote = function(string) {
-      return '"' + string.replace('"', '""') + '"';
+      return '"' + string.trim().replace('"', '""') + '"';
     }
 
     var csvData = [];
@@ -30,7 +30,7 @@
         var row = $(this);
         row.find('th').each(function(i,e){
           var cell = $(this);
-          headers.push('"'+cell.text()+'"');
+          headers.push(quote(cell.text()));
         });
       });
       csvData.push(headers);
